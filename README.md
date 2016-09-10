@@ -1,10 +1,3 @@
-# This is a header
+# IMDB API
 
-This is **bold**
-
-- This
-- is
-- a 
-- list
-
-- yo
+This is a test of the IMDB database API.
