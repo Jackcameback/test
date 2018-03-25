@@ -17,7 +17,6 @@
   },
   "homepage": "https://github.com/Jackcameback/test#readme",
   "dependencies": {
-    "imdb-api": "^2.0.0",
     "weather-js": "^2.0.0"
   }
 }
