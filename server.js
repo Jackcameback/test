@@ -1,10 +1,11 @@
-var imdb = require('imdb-api');
-var input = process.argv[2];
-var movie;
-
-imdb.getReq({ name: input }, function(err, things) {
-    movie = things;
-    console.log(movie);
+var weather = require('weather-js');
+ 
+// Options: 
+// search:     location name or zipcode 
+// degreeType: F or C 
+ 
+weather.find({search: '37064', degreeType: 'F'}, function(err, result) {
+  if(err) console.log(err);
+ 
+  console.log(JSON.stringify(result[0].forecast[3], null, 2));
 });
-
-
